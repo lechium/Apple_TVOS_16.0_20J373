@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.coreduetd.allow</key>
+	<true/>
+	<key>com.apple.fileprovider.enumerate</key>
+	<true/>
+	<key>com.apple.keystore.lockassertion</key>
+	<true/>
+	<key>com.apple.private.corespotlight.sender</key>
+	<true/>
+	<key>com.apple.private.persona.read</key>
+	<true/>
+	<key>com.apple.private.photos.library.deleted</key>
+	<true/>
+	<key>com.apple.private.suggestions</key>
+	<true/>
+	<key>com.apple.private.tcc.manager.read.access</key>
+	<array>
+		<string>kTCCServiceAll</string>
+	</array>
+	<key>com.apple.proactive.PersonalizationPortrait.Contact</key>
+	<true/>
+	<key>com.apple.proactive.PersonalizationPortrait.NamedEntity.readOnly</key>
+	<true/>
+	<key>com.apple.proactive.PersonalizationPortrait.Topic.readOnly</key>
+	<true/>
+	<key>com.apple.security.personal-information.addressbook</key>
+	<true/>
+	<key>com.apple.usermanagerd.persona.fetch</key>
+	<true/>
+	<key>com.apple.usermanagerd.persona.observer</key>
+	<true/>
+</dict>
+</plist>

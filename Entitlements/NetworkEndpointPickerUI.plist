@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.NetworkEndpointPickerUI</string>
+	<key>com.apple.CompanionLink</key>
+	<true/>
+	<key>com.apple.Contacts.database-allow</key>
+	<true/>
+	<key>com.apple.appletv.pbs.user-profiles</key>
+	<true/>
+	<key>com.apple.private.accounts.allaccounts</key>
+	<true/>
+	<key>com.apple.private.coreservices.canmaplsdatabase</key>
+	<true/>
+	<key>com.apple.private.sandbox.profile:embedded</key>
+	<string>temporary-sandbox</string>
+	<key>com.apple.rapport.Client</key>
+	<true/>
+	<key>com.apple.runningboard.trustedtarget</key>
+	<true/>
+	<key>com.apple.security.exception.files.absolute-path.read-only</key>
+	<array>
+		<string>/Applications/</string>
+		<string>/private/var/containers/Bundle/Application/</string>
+	</array>
+	<key>com.apple.security.exception.iokit-user-client-class</key>
+	<array>
+		<string>IOSurfaceRootUserClient</string>
+	</array>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.CompanionLink</string>
+		<string>com.apple.backboard.display.services</string>
+		<string>com.apple.frontboard.systemappservices</string>
+		<string>com.apple.iohideventsystem</string>
+		<string>com.apple.accessibility.AXBackBoardServer</string>
+		<string>com.apple.CARenderServer</string>
+		<string>com.apple.backboard.hid.services</string>
+		<string>com.apple.audio.SystemSoundServer-iOS</string>
+		<string>com.apple.audio.AudioSession</string>
+		<string>com.apple.PowerManagement.control</string>
+		<string>com.apple.accountsd.accountmanager</string>
+		<string>com.apple.iphone.axserver-systemwide</string>
+		<string>com.apple.familycircle.agent</string>
+	</array>
+	<key>com.apple.security.exception.mach-lookup.local-name</key>
+	<array>
+		<string>com.apple.iphone.axserver</string>
+	</array>
+	<key>com.apple.security.exception.mach-register.local-name</key>
+	<array>
+		<string>com.apple.iphone.axserver</string>
+	</array>
+	<key>com.apple.security.exception.process-info</key>
+	<true/>
+	<key>com.apple.springboard.opensensitiveurl</key>
+	<true/>
+	<key>platform-application</key>
+	<true/>
+</dict>
+</plist>

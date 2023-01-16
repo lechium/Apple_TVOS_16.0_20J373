@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HomeKit</key>
+	<true/>
+	<key>com.apple.appletv.pbs.homeui-service.read-write</key>
+	<true/>
+	<key>com.apple.appletv.pbs.picture-in-picture-service-access</key>
+	<true/>
+	<key>com.apple.coreduetd.allow</key>
+	<true/>
+	<key>com.apple.coreduetd.context</key>
+	<true/>
+	<key>com.apple.developer.device-information.user-assigned-device-name</key>
+	<true/>
+	<key>com.apple.developer.homekit</key>
+	<true/>
+	<key>com.apple.developer.homekit.background-mode</key>
+	<true/>
+	<key>com.apple.idle-timer-services</key>
+	<true/>
+	<key>com.apple.private.homekit</key>
+	<true/>
+	<key>com.apple.private.homekit.allow-secure-access</key>
+	<true/>
+	<key>com.apple.private.homekit.cameraclips</key>
+	<true/>
+	<key>com.apple.private.tcc.allow</key>
+	<array>
+		<string>kTCCServiceWillow</string>
+	</array>
+	<key>com.apple.security.exception.shared-preference.read-only</key>
+	<array>
+		<string>com.apple.PineBoardServices</string>
+	</array>
+</dict>
+</plist>
